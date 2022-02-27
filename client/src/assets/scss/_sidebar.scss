@@ -8,6 +8,7 @@
   }
 
   ul {
+    row-gap: 20px;
     @include medium {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
