@@ -1,0 +1,47 @@
+.top_affected_countries {
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+
+ .countries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+
+ 
+  .country {
+    transition: all 0.4s;
+    background: $bg-color;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background: $primary-color;
+      transform: scale(1.08);
+    }
+
+    .country_info {
+      h3 {
+        margin-bottom: 8px;
+      }
+
+      h6 {
+        color: $secondary-text-color;
+      }
+    }
+
+    .country_img img {
+      width: 70%;
+    }
+  }
+}
+}

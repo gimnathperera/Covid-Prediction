@@ -1,0 +1,14 @@
+.primary-btn {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: #fff;
+  background: $primary-color;
+  border-radius: 20px;
+  transition: all 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    background: darken($primary-color, 5%);
+  }
+}

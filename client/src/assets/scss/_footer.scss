@@ -1,0 +1,19 @@
+footer {
+  text-align: center;
+  color: $secondary-text-color;
+  padding: 1rem 0;
+
+  p {
+    text-transform: uppercase;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $primary-text-color;
+    transition: all 0.4s;
+
+    &:hover {
+      text-shadow: 0 5px 5px #fff;
+    }
+  }
+}

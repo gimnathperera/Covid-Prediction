@@ -1,0 +1,41 @@
+.datapanels_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+  align-items: center;
+
+  .datapanel {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    background: $bg-color;
+
+    @include medium {
+      display: block;
+      text-align: center;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        color: $secondary-text-color;
+        font-size: 400%;
+        text-align: center;
+      }
+    }
+
+    h3 {
+      color: $primary-text-color;
+    }
+
+    h2 {
+      margin-top: 1rem;
+      color: $secondary-text-color;
+    }
+  }
+}

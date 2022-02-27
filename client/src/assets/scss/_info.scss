@@ -1,0 +1,33 @@
+.info {
+  width: 80%;
+  margin: auto;
+  
+  &_header {
+    h1 {
+      text-align: center;
+      color: #fff;
+      margin: 2rem 0;
+    }
+
+    h2 {
+      color: $primary-text-color;
+    }
+  }
+
+  &_content {
+    margin-top: 2rem;
+
+    h4 {
+      color: $secondary-text-color;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      color: $secondary-text-color;
+
+      li {
+        margin: 12px 0;
+      }
+    }
+  }
+}

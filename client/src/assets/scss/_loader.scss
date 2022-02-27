@@ -1,0 +1,20 @@
+.spinner {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  border: 3px solid transparent;
+  border-top-color: #ff1f2d;
+  border-bottom-color: #ff1f2d;
+  border-radius: 50%;
+  animation: rotation 0.8s ease infinite;
+}
+
+// ANIMATIONS
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

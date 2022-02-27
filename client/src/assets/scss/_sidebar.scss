@@ -1,0 +1,46 @@
+.sidebar {
+  height: 50vh;
+  padding: 2rem 1rem;
+
+  @include medium {
+    width: 100%;
+    height: 80px;
+  }
+
+  ul {
+    @include medium {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+    }
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+    height: 50vh;
+
+    a {
+      color: #fff;
+    }
+
+    li {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.11);
+      border-radius: 20px;
+      color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      font-size: 1.4rem;
+      transition: all 0.4s;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &.active {
+        background: $primary-color;
+        color: #fff;
+      }
+    }
+  }
+}

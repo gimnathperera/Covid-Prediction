@@ -1,0 +1,131 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $bg-color;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  color: #fff;
+
+  @include medium {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .actions {
+    @include medium {
+      margin-top: 1rem;
+    }
+
+    @include small {
+      flex-direction: column;
+
+      button {
+        margin-top: 1rem;
+        width: 100%;
+      }
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $bg-color;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.4s;
+
+  &:hover {
+    background: #121212;
+  }
+
+  &_toggler {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s;
+    border-radius: 20px;
+    padding: 7px;
+
+    &.up {
+      transform: rotate(-180deg);
+    }
+
+    &:hover {
+      background: $bg-color;
+    }
+  }
+
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-top: 1rem;
+    border-radius: 20px;
+    list-style: none;
+    text-align: center;
+    transform: scaleY(0);
+    transform-origin: 0% 0%;
+    background: #333;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+    padding: 1rem;
+    height: 200px;
+    overflow-y: auto;
+    transition: all 0.4s;
+    opacity: 0;
+    scrollbar-color: #222 #333;
+    scrollbar-width: thick;
+    scrollbar-border-radius: 20px;
+
+    input {
+      font-size: 70%;
+      margin-top: 1rem;
+      background: transparent;
+      border-radius: 15px;
+      padding: 8px 10px;
+      margin-bottom: 1rem;
+      border: 2px solid #555;
+      width: 100%;
+      color: $secondary-text-color;
+    }
+
+    &.active {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    p {
+      color: $secondary-text-color;
+    }
+
+    li {
+      margin: 5px 0;
+      transition: all 0.4s;
+      color: $secondary-text-color;
+      padding: 5px 0;
+      border-radius: 20px;
+      font-size: 80%;
+
+      &:hover,
+      &.selected {
+        background: #222;
+      }
+    }
+  }
+}

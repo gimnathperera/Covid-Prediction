@@ -1,0 +1,34 @@
+.country_data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  background: $bg-color;
+  padding: 2rem 3rem;
+  margin: 1rem 0;
+  border-radius: 20px;
+
+  @include medium {
+    display: block;
+    text-align: center;
+  }
+
+  .country_info {
+    h1 {
+      margin-bottom: 1rem;
+      color: $primary-text-color;
+    }
+
+    ul {
+      list-style: none;
+      li {
+        margin: 12px 0;
+        color: $secondary-text-color;
+      }
+    }
+  }
+
+  .country_icon {
+    margin: 2rem 0;
+    text-align: center;
+  }
+}

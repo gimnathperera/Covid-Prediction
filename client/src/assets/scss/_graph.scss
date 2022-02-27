@@ -1,0 +1,25 @@
+.graph_container {
+  height: 100vh;
+  background: $bg-color;
+  border-radius: 20px;
+  padding: 1rem;
+  color: $primary-text-color;
+
+  & > * {
+    height: 100%;
+    width: 50%;
+  }
+}
+.image-container {
+  height: 100vh;
+  background: $bg-color;
+  border-radius: 20px;
+  padding: 1rem;
+  color: $primary-text-color;
+
+  & > * {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+}

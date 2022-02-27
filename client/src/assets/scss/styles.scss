@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+@import "config";
+@import "mediaqueries";
+
+body {
+  background: $dark-color;
+}
+
+@-moz-document url-prefix() {
+  .dropdown ul {
+    overflow: auto;
+    scroll-behavior: smooth !important;
+    border-radius: 10px !important;
+  }
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @include medium {
+    flex-direction: column;
+  }
+}
+
+.App__left {
+  flex: 0.4;
+
+  @include medium {
+    flex: 0.2;
+  }
+}
+.App__right {
+  flex: 4;
+  padding: 2rem 1rem;
+}
+
+@import "sidebar";
+@import "data-panels";
+@import "header";
+@import "country-data";
+@import "buttons";
+@import "graph";
+@import "loader";
+@import "map-container";
+@import "modal";
+@import "topAffectedCountries";
+@import "footer";
+@import "info";
