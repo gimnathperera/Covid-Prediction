@@ -10,7 +10,7 @@
 
 🚀 **Watch Full Demo on You-Tube** <br/>
 
-[![Video Thumbnai](https://i3.ytimg.com/vi/3DJyT-pR2rs/maxresdefault.jpg)](https://www.youtube.com/watch?v=v=3DJyT-pR2rs&t=2s)
+[![Video Thumbnai](https://i3.ytimg.com/vi/3DJyT-pR2rs/maxresdefault.jpg)](https://www.youtube.com/watch?v=3DJyT-pR2rs&t=2s)
 
 ## Getting Started
 
