@@ -10,7 +10,17 @@
 
 🚀 **Watch Full Demo on You-Tube** <br/>
 
-[![Video Thumbnai](https://i3.ytimg.com/vi/3DJyT-pR2rs/maxresdefault.jpg)](https://www.youtube.com/watch?v=3DJyT-pR2rs&t=2s)
+[![Corona Covid Tracker](https://yt-embed.herokuapp.com/embed?v=3DJyT-pR2rs&t=2s)](https://www.youtube.com/watch?v=3DJyT-pR2rs&t=2s "Corona Covid Tracker")
+
+
+🚀 **Views**
+
+<img src="https://i.ibb.co/zNLbzRy/screencapture-localhost-3000-prediction-2022-05-17-19-59-03-2.png" width="45%"></img>
+<img src="https://i.ibb.co/F4TLJ9r/screencapture-localhost-3000-map-2022-05-17-19-58-47-2.png" width="45%"></img>
+<img src="https://i.ibb.co/7CJRdsR/screencapture-localhost-3000-countries-2022-05-17-19-59-11-2.png" width="45%"></img>
+<img src="https://i.ibb.co/2v6q2CP/screencapture-localhost-3000-2022-05-17-19-58-19-2.png" width="45%"></img>
+
+
 
 ## Getting Started
 
