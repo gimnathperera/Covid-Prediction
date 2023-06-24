@@ -10,7 +10,7 @@
 
 🚀 **Watch Full Demo on You-Tube** <br/>
 
-[![Corona Covid Tracker](https://yt-embed.herokuapp.com/embed?v=3DJyT-pR2rs&t=2s)](https://www.youtube.com/watch?v=3DJyT-pR2rs&t=2s "Corona Covid Tracker")
+https://www.youtube.com/watch?v=3DJyT-pR2rs&t=1s
 
 
 🚀 **Views**
