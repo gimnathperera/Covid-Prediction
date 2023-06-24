@@ -8,7 +8,7 @@
 
 🚀 **Tech Stack** - Reactjs | Redux | Flask | Tensorflow | Machine Learning Algorithms | Styled Components <br/>
 
-🚀 **Watch Full Demo on You-Tube** <br/>
+🚀 **Watch Full Demo on YouTube** <br/>
 
 https://www.youtube.com/watch?v=3DJyT-pR2rs&t=1s
 
